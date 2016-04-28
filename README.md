@@ -1,5 +1,5 @@
 # QARK
-
+可查找Android应用程序的安全漏洞，或者是源代码中的漏洞，或者是APK程序包中的漏洞。该工具可以发现诸多问题，比如无意中导出的组件、不合适的x.509证书验证、数据泄漏、嵌入在源代码中的私钥、弱密码或使用不当的密码以及触屏劫持（tap-jacking）等等。Qark提供了已发现的安全漏洞性质方面的信息，还能够创建可利用这些漏洞的概念证明APK。
 **Q**uick **A**ndroid **R**eview **K**it - This tool is designed to look for several security related Android application vulnerabilities, either in source code or packaged APKs. The tool is also capable of creating "Proof-of-Concept" deployable APKs and/or ADB commands, capable of exploiting many of the vulnerabilities it finds. There is no need to root the test device, as this tool focuses on vulnerabilities that can be exploited under otherwise secure conditions.
 
 ## Usage
